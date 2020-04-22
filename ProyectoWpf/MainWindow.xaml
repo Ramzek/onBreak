@@ -16,14 +16,14 @@
             <ColumnDefinition Width="19*"/>
             <ColumnDefinition Width="398*"/>
         </Grid.ColumnDefinitions>
-        <Controls:Tile Margin="293,38,19,458" Height="Auto" Width="Auto" Background="#CC060604" Title="         Ver listado" Click="Tile_Click_5" Grid.Column="2">
+        <Controls:Tile x:Name="btVerList" Margin="293,38,19,458" Height="Auto" Width="Auto" Background="#CC060604" Title="         Ver listado" Click="Tile_Click_5" Grid.Column="2">
             <Image Height="95" Width="105" Stretch="Fill" Source="Imagenes/Lista.png">
                 <Image.Effect>
                     <DropShadowEffect BlurRadius="10" ShadowDepth="10"/>
                 </Image.Effect>
             </Image>
         </Controls:Tile>
-        <Controls:Tile Margin="293,289,19,205" Width="Auto" Height="Auto" Background="#CC0C0801" Title="      Volver al menú" Click="Tile_Click_4" Grid.Column="2">
+        <Controls:Tile x:Name="btVolverMenu" Margin="293,289,19,205" Width="Auto" Height="Auto" Background="#CC0C0801" Title="      Volver al menú" Click="Tile_Click_4" Grid.Column="2">
             <Image Height="99" Width="105" Stretch="Fill" Source="Imagenes/Atras.png">
                 <Image.Effect>
                     <DropShadowEffect BlurRadius="10" ShadowDepth="20"/>

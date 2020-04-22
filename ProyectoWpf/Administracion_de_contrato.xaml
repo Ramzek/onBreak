@@ -8,16 +8,59 @@
         xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
         xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
-        Title="Admin Contratos Onbreak" Background="Violet" Height="760" Width="1024">
+        Title="Admin Contratos Onbreak" Background="Bisque" Height="760" Width="1024">
     <Grid RenderTransformOrigin="0.423,0.395">
         <Label Content="N° contrato:" HorizontalAlignment="Left" VerticalAlignment="Top" Background="White" Margin="25,42,0,0" Width="141" HorizontalContentAlignment="Center"/>
         <TextBox x:Name="TexDirec" HorizontalAlignment="Left" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Ingrese direccion:" Height="23" Margin="25,93,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141"/>
         <ComboBox x:Name="cbTipo" HorizontalAlignment="Left" Margin="25,164,0,0" VerticalAlignment="Top" Width="141" RenderTransformOrigin="-0.586,0.765"/>
         <TextBox x:Name="TexNumCont" IsReadOnly= "true" HorizontalAlignment="Left"  Height="23" Margin="224,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="123"/>
-        <DataGrid x:Name="dgregis" HorizontalAlignment="Left" Height="154" Margin="25,376,0,0" VerticalAlignment="Top" Width="765"/>
-        <Controls:Tile Margin="26,564,850,25" Click="Tile_Click"></Controls:Tile>
-        <Controls:Tile Margin="242,564,634,25" Background="Red" Click="Tile_Click_1"></Controls:Tile>
+        <DataGrid x:Name="dgregis" HorizontalAlignment="Left" Height="154" Margin="25,339,0,0" VerticalAlignment="Top" Width="765"/>
         <TextBox  x:Name="texObs" HorizontalAlignment="Left" Controls:TextBoxHelper.Watermark="Observaciones: " Height="87" Margin="25,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
-        <Controls:Tile Margin="876,564,0,25" Background="Black" Click="Tile_Click_2"></Controls:Tile>
+        <Controls:Tile x:Name="btAgregar" Margin="25,564,875,43" Background="#FF05DCF1" Height="122" Width="Auto" Title="  Agregar" Click="Tile_Click" Opacity="0.65">
+            <Controls:Tile.Effect>
+                <DropShadowEffect BlurRadius="10" ShadowDepth="10"/>
+            </Controls:Tile.Effect>
+            <Image Height="39" Width="49" Stretch="Fill" Source="Imagenes/Agregar.png" RenderTransformOrigin="-2.365,0.45"/>
+        </Controls:Tile>
+        <Controls:Tile x:Name="btBuscar" Margin="206,565,694,42" Height="122" Width="116" Background="#FF05DCF1" Title="   Buscar" Opacity="0.65" Click="Tile_Click_1" RenderTransformOrigin="0.5,0.5">
+            <Controls:Tile.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.735"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="-0.487"/>
+                </TransformGroup>
+            </Controls:Tile.RenderTransform>
+            <Controls:Tile.Effect>
+                <DropShadowEffect BlurRadius="10" ShadowDepth="10" Opacity="0.99"/>
+            </Controls:Tile.Effect>
+            <Image Height="49" Width="39" Stretch="Fill" Source="Imagenes/Buscar.png"/>
+        </Controls:Tile>
+        <Controls:Tile x:Name="btModificar" Margin="379,564,521,43" Click="Tile_Click_2" Width="116" Height="122" Title=" Modificar">
+            <Controls:Tile.Effect>
+                <DropShadowEffect BlurRadius="10" ShadowDepth="10"/>
+            </Controls:Tile.Effect>
+            <Image Height="49" Width="42" Stretch="Fill" Source="Imagenes/Modificar.png"/>
+        </Controls:Tile>
+        <Controls:Tile x:Name="btVerList" Margin="857,0,21,496" Height="Auto" Width="Auto" Background="#CC060604" Title="         Ver listado" Click="Tile_Click_5">
+            <Image Height="95" Width="105" Stretch="Fill" Source="Imagenes/Lista.png">
+                <Image.Effect>
+                    <DropShadowEffect BlurRadius="10" ShadowDepth="10"/>
+                </Image.Effect>
+            </Image>
+        </Controls:Tile>
+        <Controls:Tile x:Name="btVolveMenu" Margin="857,258,21,236" Width="Auto" Height="Auto" Background="#CC0C0801" Title="      Volver al menú" Click="Tile_Click_4">
+            <Image Height="99" Width="105" Stretch="Fill" Source="Imagenes/Atras.png">
+                <Image.Effect>
+                    <DropShadowEffect BlurRadius="10" ShadowDepth="20"/>
+                </Image.Effect>
+            </Image>
+        </Controls:Tile>
+        <Controls:Tile x:Name="btEliminar" Margin="857,564,43,43" Width="116" Height="122" Title="  Eliminar" Click="Tile_Click_3">
+            <Controls:Tile.Effect>
+                <DropShadowEffect BlurRadius="10" ShadowDepth="10"/>
+            </Controls:Tile.Effect>
+            <Image Height="49" Width="42" Stretch="Fill" Source="Imagenes/Eliminar.png"/>
+        </Controls:Tile>
     </Grid>
 </Controls:MetroWindow>

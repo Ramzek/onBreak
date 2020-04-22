@@ -58,28 +58,26 @@ namespace ProyectoWpf
             cbac.SelectedIndex = 0;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Tile_Click_4(object sender, RoutedEventArgs e)
         {
             Menu me = new Menu();
             this.Close();
             me.ShowDialog();
         }
-
-        private void btVerall_Click(object sender, RoutedEventArgs e)
+        private void Tile_Click_5(object sender, RoutedEventArgs e)
         {
             Mostrar();
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Tile_Click_1(object sender, RoutedEventArgs e)
         {
             listFiltrada.Clear();
             filtrarRut();
             BuscarActividadYemp(filtrarRut());
             MostrarAct();
             reiniciarCombo();
-
-
         }
+
 
 
         public void  BuscarActividadYemp(List<Clientess> coleccion) 
@@ -149,6 +147,7 @@ namespace ProyectoWpf
 
         }
 
+        
     }
 
 
