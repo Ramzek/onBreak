@@ -24,6 +24,7 @@ namespace ProyectoWpf
     /// </summary>
     public partial class Listado : MetroWindow
     {
+       
         List<Clientess> listFiltrada = new List<Clientess>();
         public Listado()
         {

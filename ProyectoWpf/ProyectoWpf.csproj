@@ -148,6 +148,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="administracionEventos.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Administracion_de_contrato.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -160,6 +164,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="administracionEventos.xaml.cs">
+      <DependentUpon>administracionEventos.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Administracion_de_contrato.xaml.cs">
       <DependentUpon>Administracion_de_contrato.xaml</DependentUpon>
     </Compile>
