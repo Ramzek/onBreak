@@ -1,0 +1,5 @@
+C:\Users\Meinher\Desktop\2 AÑO 1 SEMESTRE\Desarrolo de software\1 unidad\Proyecto\Proyecto\Cliente\Cliente\bin\Debug\Cliente.dll
+C:\Users\Meinher\Desktop\2 AÑO 1 SEMESTRE\Desarrolo de software\1 unidad\Proyecto\Proyecto\Cliente\Cliente\bin\Debug\Cliente.pdb
+C:\Users\Meinher\Desktop\2 AÑO 1 SEMESTRE\Desarrolo de software\1 unidad\Proyecto\Proyecto\Cliente\Cliente\obj\Debug\Cliente.csprojAssemblyReference.cache
+C:\Users\Meinher\Desktop\2 AÑO 1 SEMESTRE\Desarrolo de software\1 unidad\Proyecto\Proyecto\Cliente\Cliente\obj\Debug\Cliente.dll
+C:\Users\Meinher\Desktop\2 AÑO 1 SEMESTRE\Desarrolo de software\1 unidad\Proyecto\Proyecto\Cliente\Cliente\obj\Debug\Cliente.pdb

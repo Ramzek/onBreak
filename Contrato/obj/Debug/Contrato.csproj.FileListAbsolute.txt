@@ -1,0 +1,5 @@
+C:\Users\Meinher\Desktop\2 AÑO 1 SEMESTRE\Desarrolo de software\1 unidad\Proyecto\Proyecto\Cliente\Contrato\bin\Debug\Contrato.dll
+C:\Users\Meinher\Desktop\2 AÑO 1 SEMESTRE\Desarrolo de software\1 unidad\Proyecto\Proyecto\Cliente\Contrato\bin\Debug\Contrato.pdb
+C:\Users\Meinher\Desktop\2 AÑO 1 SEMESTRE\Desarrolo de software\1 unidad\Proyecto\Proyecto\Cliente\Contrato\obj\Debug\Contrato.csprojAssemblyReference.cache
+C:\Users\Meinher\Desktop\2 AÑO 1 SEMESTRE\Desarrolo de software\1 unidad\Proyecto\Proyecto\Cliente\Contrato\obj\Debug\Contrato.dll
+C:\Users\Meinher\Desktop\2 AÑO 1 SEMESTRE\Desarrolo de software\1 unidad\Proyecto\Proyecto\Cliente\Contrato\obj\Debug\Contrato.pdb
