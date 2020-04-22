@@ -52,7 +52,7 @@
             </mah:Tile.Effect>
             <Image Height="49" Width="42" Stretch="Fill" Source="Imagenes/Eliminar.png"/>
         </mah:Tile>
-        <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="94" Margin="475,47,0,0" Source="white_logo_color_background.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="94" Margin="466,42,0,0" Source="white_logo_color_background.jpg"/>
 
     </Grid>
 </Window>

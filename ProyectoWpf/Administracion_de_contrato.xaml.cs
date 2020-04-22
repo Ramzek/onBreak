@@ -23,7 +23,7 @@ namespace ProyectoWpf
      
     public partial class Administracion_de_contrato : MetroWindow
     {
-        List<string> datos = new List<string>();
+        List<String[]> datos = new List<String[]>();
         List<Contrato.Contrato> cn = new List<Contrato.Contrato>();
         Contrato.Contrato con = new Contrato.Contrato();
         public Administracion_de_contrato()
@@ -36,7 +36,7 @@ namespace ProyectoWpf
             con.NumeroContrato = DateTime.Now.ToString("yyyyMMddHHmm");
             con.Creacion = DateTime.Now;
             con.FechaHoraInicio = dtpIni.DisplayDate;
-            MessageBox.Show(dtpIni.DisplayDate.ToString());
+           
             con.Direccion = TexDirec.Text;
             con.EstaVigente = true;
             con.Observaciones = texObs.Text;
@@ -89,8 +89,14 @@ namespace ProyectoWpf
         }
 
         private void generarListadoStr() {
+            
             foreach (Contrato.Contrato i in cn)
             {
+                String[] cont = new String[9];
+                cont[0] = i.NumeroContrato;
+                cont[1] = i.Creacion.ToString();
+                cont[2] = i.FechaHoraInicio.ToString();
+                cont[3] = i.Creacion.ToString();
 
             }
 
