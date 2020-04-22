@@ -44,7 +44,7 @@ namespace ProyectoWpf {
     public partial class Listado : MahApps.Metro.Controls.MetroWindow, System.Windows.Markup.IComponentConnector {
         
         
-        #line 25 "..\..\Listado.xaml"
+        #line 21 "..\..\Listado.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox texrut1;
         
@@ -52,7 +52,7 @@ namespace ProyectoWpf {
         #line hidden
         
         
-        #line 28 "..\..\Listado.xaml"
+        #line 24 "..\..\Listado.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.DataGrid dgListado;
         
@@ -60,7 +60,7 @@ namespace ProyectoWpf {
         #line hidden
         
         
-        #line 29 "..\..\Listado.xaml"
+        #line 25 "..\..\Listado.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.ComboBox cbac;
         
@@ -68,7 +68,7 @@ namespace ProyectoWpf {
         #line hidden
         
         
-        #line 30 "..\..\Listado.xaml"
+        #line 26 "..\..\Listado.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.ComboBox cbem;
         
@@ -76,7 +76,7 @@ namespace ProyectoWpf {
         #line hidden
         
         
-        #line 31 "..\..\Listado.xaml"
+        #line 27 "..\..\Listado.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal MahApps.Metro.Controls.Tile btBus;
         
@@ -84,7 +84,7 @@ namespace ProyectoWpf {
         #line hidden
         
         
-        #line 45 "..\..\Listado.xaml"
+        #line 41 "..\..\Listado.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal MahApps.Metro.Controls.Tile btVolvermenu;
         
@@ -92,7 +92,7 @@ namespace ProyectoWpf {
         #line hidden
         
         
-        #line 52 "..\..\Listado.xaml"
+        #line 48 "..\..\Listado.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal MahApps.Metro.Controls.Tile btVerall;
         
@@ -144,7 +144,7 @@ namespace ProyectoWpf {
             case 5:
             this.btBus = ((MahApps.Metro.Controls.Tile)(target));
             
-            #line 31 "..\..\Listado.xaml"
+            #line 27 "..\..\Listado.xaml"
             this.btBus.Click += new System.Windows.RoutedEventHandler(this.Tile_Click_1);
             
             #line default
@@ -153,7 +153,7 @@ namespace ProyectoWpf {
             case 6:
             this.btVolvermenu = ((MahApps.Metro.Controls.Tile)(target));
             
-            #line 45 "..\..\Listado.xaml"
+            #line 41 "..\..\Listado.xaml"
             this.btVolvermenu.Click += new System.Windows.RoutedEventHandler(this.Tile_Click_4);
             
             #line default
@@ -162,7 +162,7 @@ namespace ProyectoWpf {
             case 7:
             this.btVerall = ((MahApps.Metro.Controls.Tile)(target));
             
-            #line 52 "..\..\Listado.xaml"
+            #line 48 "..\..\Listado.xaml"
             this.btVerall.Click += new System.Windows.RoutedEventHandler(this.Tile_Click_5);
             
             #line default
