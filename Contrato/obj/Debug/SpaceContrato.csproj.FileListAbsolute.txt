@@ -1,0 +1,5 @@
+C:\Users\ramze\OneDrive\Escritorio\onBreak\Contrato\bin\Debug\Contrato.dll
+C:\Users\ramze\OneDrive\Escritorio\onBreak\Contrato\bin\Debug\Contrato.pdb
+C:\Users\ramze\OneDrive\Escritorio\onBreak\Contrato\obj\Debug\SpaceContrato.csprojAssemblyReference.cache
+C:\Users\ramze\OneDrive\Escritorio\onBreak\Contrato\obj\Debug\Contrato.dll
+C:\Users\ramze\OneDrive\Escritorio\onBreak\Contrato\obj\Debug\Contrato.pdb

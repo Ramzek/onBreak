@@ -12,10 +12,10 @@
     <Grid RenderTransformOrigin="0.423,0.395">
         <Label Content="N° contrato:" HorizontalAlignment="Left" VerticalAlignment="Top" Background="White" Margin="25,42,0,0" Width="141" HorizontalContentAlignment="Center"/>
         <TextBox x:Name="TexDirec" HorizontalAlignment="Left" Controls:TextBoxHelper.ClearTextButton="True" Controls:TextBoxHelper.Watermark="Ingrese direccion:" Height="23" Margin="25,93,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141"/>
-        <ComboBox x:Name="cbTipo" HorizontalAlignment="Left" Margin="25,164,0,0" VerticalAlignment="Top" Width="141" RenderTransformOrigin="-0.586,0.765"/>
+        <ComboBox x:Name="cbTipo" HorizontalAlignment="Left" Margin="224,98,0,0" VerticalAlignment="Top" Width="141" RenderTransformOrigin="-0.586,0.765"/>
         <TextBox x:Name="TexNumCont" IsReadOnly= "true" HorizontalAlignment="Left"  Height="23" Margin="224,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="123"/>
         <DataGrid x:Name="dgregis" HorizontalAlignment="Left" Height="154" Margin="25,339,0,0" VerticalAlignment="Top" Width="765"/>
-        <TextBox  x:Name="texObs" HorizontalAlignment="Left" Controls:TextBoxHelper.Watermark="Observaciones: " Height="87" Margin="25,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216"/>
+        <TextBox  x:Name="texObs" HorizontalAlignment="Left" Controls:TextBoxHelper.Watermark="Observaciones: " Height="87" Margin="25,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322"/>
         <Controls:Tile x:Name="btAgregar" Margin="25,564,875,43" Background="#FF05DCF1" Height="122" Width="Auto" Title="  Agregar" Click="Tile_Click" Opacity="0.65">
             <Controls:Tile.Effect>
                 <DropShadowEffect BlurRadius="10" ShadowDepth="10"/>
@@ -62,5 +62,6 @@
             </Controls:Tile.Effect>
             <Image Height="49" Width="42" Stretch="Fill" Source="Imagenes/Eliminar.png"/>
         </Controls:Tile>
+        <DatePicker x:Name="dtpIni" HorizontalAlignment="Left" Margin="40,151,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Controls:MetroWindow>

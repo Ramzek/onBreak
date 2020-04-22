@@ -230,9 +230,9 @@
       <Project>{fbf54406-f44f-430c-b2ba-145fea1fac25}</Project>
       <Name>Cliente</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Contrato\Contrato.csproj">
+    <ProjectReference Include="..\Contrato\SpaceContrato.csproj">
       <Project>{185d2430-685b-48b4-9146-9341c283392b}</Project>
-      <Name>Contrato</Name>
+      <Name>SpaceContrato</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

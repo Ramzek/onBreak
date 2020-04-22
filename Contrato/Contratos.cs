@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Contrato
 {
-    public class Contratos
+    public class Contrato
     {
         public String NumeroContrato { get; set; }
         public DateTime Creacion { get; set; }
@@ -18,7 +18,7 @@ namespace Contrato
         public TipoEvento Tipo { get; set; }
         public String Observaciones { get; set; }
 
-        public Contratos()
+        public Contrato()
         {
             this.datos();
         }

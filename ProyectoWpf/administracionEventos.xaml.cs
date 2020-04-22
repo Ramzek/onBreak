@@ -38,5 +38,20 @@ namespace ProyectoWpf
         {
 
         }
+
+        private void Tile_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Tile_Click_2(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Tile_Click_3(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

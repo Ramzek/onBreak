@@ -9,6 +9,8 @@
         Title="administracionEventos" Height="760" Width="1024" Visibility="Visible" Background="Bisque">
     <Grid>
 
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="569" Margin="311,27,0,0" VerticalAlignment="Top" Width="418"/>
+
         <mah:Tile x:Name="btAgregar1" Margin="357,454,576.6,176.4" Background="#FF05DCF1" Height="Auto" Width="84" Title="  Agregar" Click="Tile_Click" Opacity="0.65">
             <mah:Tile.Effect>
                 <DropShadowEffect BlurRadius="10" ShadowDepth="10"/>
@@ -44,7 +46,6 @@
         <TextBox HorizontalAlignment="Left" Height="25" Margin="449,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
         <TextBox x:Name="txtId" IsReadOnly="True" HorizontalAlignment="Left" Opacity="0.5" Background="#CDCDCD" Height="23" Margin="475,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_1" BorderBrush="Black"/>
         <Label Content="ID Evento" HorizontalAlignment="Left" Margin="409,210,0,0" VerticalAlignment="Top"/>
-        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="569" Margin="311,27,0,0" VerticalAlignment="Top" Width="418"/>
         <mah:Tile x:Name="btEliminar" Margin="568,454,365.6,176.4" Width="84" Height="100" Title="  Eliminar" Click="Tile_Click_3">
             <mah:Tile.Effect>
                 <DropShadowEffect BlurRadius="10" ShadowDepth="10"/>

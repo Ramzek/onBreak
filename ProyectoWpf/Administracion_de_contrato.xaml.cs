@@ -20,10 +20,12 @@ namespace ProyectoWpf
     /// <summary>
     /// Lógica de interacción para Administracion_de_contrato.xaml
     /// </summary>
+     
     public partial class Administracion_de_contrato : MetroWindow
     {
-        List<Contratos> cn = new List<Contratos>();
-        Contratos con = new Contratos();
+        List<string> datos = new List<string>();
+        List<Contrato.Contrato> cn = new List<Contrato.Contrato>();
+        Contrato.Contrato con = new Contrato.Contrato();
         public Administracion_de_contrato()
         {
             InitializeComponent();
@@ -33,7 +35,8 @@ namespace ProyectoWpf
         {
             con.NumeroContrato = DateTime.Now.ToString("yyyyMMddHHmm");
             con.Creacion = DateTime.Now;
-            con.FechaHoraInicio = DateTime.Today;
+            con.FechaHoraInicio = dtpIni.DisplayDate;
+            MessageBox.Show(dtpIni.DisplayDate.ToString());
             con.Direccion = TexDirec.Text;
             con.EstaVigente = true;
             con.Observaciones = texObs.Text;
@@ -45,7 +48,7 @@ namespace ProyectoWpf
         }
         private void Tile_Click_1(object sender, RoutedEventArgs e)
         {
-            Contratos con = cn.First(C => C.NumeroContrato == TexNumCont.Text);
+            Contrato.Contrato con = cn.First(C => C.NumeroContrato == TexNumCont.Text);
             TexNumCont.Text = con.NumeroContrato;
             TexDirec.Text = con.Direccion;
             texObs.Text = con.Observaciones;
@@ -82,6 +85,14 @@ namespace ProyectoWpf
 
         private void Tile_Click_5(object sender, RoutedEventArgs e)
         {
+
+        }
+
+        private void generarListadoStr() {
+            foreach (Contrato.Contrato i in cn)
+            {
+
+            }
 
         }
     }

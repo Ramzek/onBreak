@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cliente", "Cliente\Cliente.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoWpf", "ProyectoWpf\ProyectoWpf.csproj", "{112EFC92-78D4-4188-9DD7-2FDD90A9555E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contrato", "Contrato\Contrato.csproj", "{185D2430-685B-48B4-9146-9341C283392B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceContrato", "Contrato\SpaceContrato.csproj", "{185D2430-685B-48B4-9146-9341C283392B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
