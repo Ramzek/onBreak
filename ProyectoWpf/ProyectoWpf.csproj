@@ -273,5 +273,8 @@
   <ItemGroup>
     <Resource Include="Imagenes\lIST_CON.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Ver todo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
