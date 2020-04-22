@@ -13,6 +13,10 @@
         <DropShadowEffect/>
     </Controls:MetroWindow.Effect>
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="209*"/>
+            <RowDefinition Height="520*"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0*"/>
             <ColumnDefinition Width="5*"/>
@@ -21,15 +25,15 @@
         <TextBox x:Name="texrut1" HorizontalAlignment="Left" Height="26" Margin="10,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Controls:TextBoxHelper.ClearTextButton="True" 
                  Controls:TextBoxHelper.Watermark="Ingrese Rut
                  " RenderTransformOrigin="0.55,-2.115" Grid.ColumnSpan="2"/>
-        <DataGrid x:Name="dgListado" Grid.Column="1" HorizontalAlignment="Left" Height="661" Margin="198,25,0,0" VerticalAlignment="Top" Width="790" IsReadOnly="True" Grid.ColumnSpan="2"/>
+        <DataGrid x:Name="dgListado" Grid.Column="1" HorizontalAlignment="Left" Height="661" Margin="198,25,0,0" VerticalAlignment="Top" Width="790" IsReadOnly="True" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
         <ComboBox x:Name="cbac" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" Height="26"/>
         <ComboBox x:Name="cbem" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="10,167,0,0" VerticalAlignment="Top" Width="120"/>
-        <Controls:Tile x:Name="btBus" Margin="11,428,151,275" Height="26" Width="120" Background="#FF05DCF1" Title="" Opacity="0.65" Click="Tile_Click_1" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
+        <Controls:Tile x:Name="btBus" Margin="13,13,149,481" Height="26" Width="120" Background="#FF05DCF1" Title="" Click="Tile_Click_1" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Grid.Row="1">
             <Controls:Tile.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
                     <SkewTransform AngleY="-0.735"/>
-                    <RotateTransform/>
+                    <RotateTransform Angle="0.691"/>
                     <TranslateTransform Y="-0.487"/>
                 </TransformGroup>
             </Controls:Tile.RenderTransform>
@@ -38,14 +42,16 @@
             </Controls:Tile.Effect>
             <Image Height="29" Width="31" Stretch="Fill" Source="Imagenes/Buscar.png"/>
         </Controls:Tile>
-        <Controls:Tile x:Name="btVolvermenu" Margin="10,503,152,0" Width="Auto" Height="138" Background="#CC0C0801" Title="      Volver al menú" Click="Tile_Click_4" Grid.Column="1" VerticalAlignment="Top">
+        <Controls:Tile x:Name="btVolvermenu" Margin="10,270,152,0" Width="Auto" Height="138" Background="#CC0C0801" Title="ir al menú" Click="Tile_Click_4" Grid.Column="1" VerticalAlignment="Top" Grid.Row="1">
             <Image Height="99" Width="105" Stretch="Fill" Source="Imagenes/Atras.png">
                 <Image.Effect>
                     <DropShadowEffect BlurRadius="10" ShadowDepth="20"/>
                 </Image.Effect>
             </Image>
         </Controls:Tile>
-        <Controls:Tile x:Name="btVerall" Margin="10,250,152,0" Width="Auto" Height="138" Background="#CC0C0801" Title="   Ver todo" Click="Tile_Click_5" Grid.Column="1" VerticalAlignment="Top"/>
+        <Controls:Tile x:Name="btVerall" Margin="10,68,152,0" Width="Auto" Height="138" Background="#CC0C0801" Title="   Ver todo" Click="Tile_Click_5" Grid.Column="1" VerticalAlignment="Top" Grid.Row="1">
+            <Image Height="100" Width="100" Stretch="Fill" Source="Imagenes/Ver todo.png"/>
+        </Controls:Tile>
 
     </Grid>
 </Controls:MetroWindow>
